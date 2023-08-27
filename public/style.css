@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Festive&family=Gloria+Hallelujah&family=Lobster&family=Pacifico&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Festive&family=Gloria+Hallelujah&family=Lobster&family=Pacifico&family=Rubik+Wet+Paint&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cookie&family=Festive&family=Gloria+Hallelujah&family=Lobster&family=Pacifico&family=Rubik+Wet+Paint&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:gray;
+    min-height: 100vh;
+}
+
+.chat_section{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    max-width: 80%;
+    background: rgb(221, 231, 233);
+
+
+}
+
+.brand{
+    padding: 15px;
+    display:flex ;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+.brand img{
+    height: 27px;
+    width: 41px;
+    filter: invert(1);
+  
+}
+.brand h1{
+    font: 900;
+    margin-left: 20px;
+    font-family: Gloria Hallelujah;
+    font-weight: bolder;
+}
+.msg{
+    height: 400px;
+    padding: 10px;
+    padding-top: 30px;
+    
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1 px solid rgb(102, 102, 102);
+    border-radius: 10px;
+
+
+}
+.in{
+    background-color: rgb(76, 75, 75);
+    color: aliceblue;
+    float: left;
+    display: block;
+    margin-left: 0px;
+    margin: 4px;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 15px;
+    font-family: Cookie;
+    font-size: 20px;
+    max-width: 300px;
+}
+.out{
+    background-color: rgb(207, 211, 215);
+    color: rgb(30, 28, 28);
+    float: right;
+    display: block;
+    margin: 4px;
+    padding: 10px;
+   max-width: 300px;
+   border-radius: 15px;
+   font-family: Cookie;
+   font-size: 20px;
+    margin-left: 300px;
+    max-width: 300px;
+    overflow:hidden
+}
+h4{
+    font-family: Shadows Into Light;
+}
+
